@@ -7,6 +7,27 @@ MediaTek graphics enhancement isn't typically a single "driver" file you install
 #Using Terminal Emulator or Termux
 su
 ls /sys/module/ged/parameters/
+
+#For result command ( supported ) ( Device Redmi 10 5G HyperOS A14 )
+ap_self_frc_detection_rate     ged_smart_boost
+boost_amp                      gpu_block
+boost_extra                    gpu_bottom_freq
+boost_gpu_enable               gpu_bw_err_debug
+boost_upper_bound              gpu_cust_boost_freq
+cpu_boost_policy               gpu_cust_upbound_freq
+deboost_reduce                 gpu_debug_enable
+enable_cpu_boost               gpu_dvfs_enable
+enable_game_self_frc_detect    gpu_idle
+enable_gpu_boost               gpu_loading
+g_fb_dvfs_threshold            gx_boost_on
+g_gpu_timer_based_emu          gx_dfps
+ged_boost_enable               gx_fb_dvfs_margin
+ged_force_mdp_enable           gx_force_cpu_boost
+ged_log_perf_trace_enable      gx_frc_mode
+ged_log_trace_enable           gx_game_mode
+ged_monitor_3D_fence_debug     gx_top_app_pid
+ged_monitor_3D_fence_disable   is_GED_KPI_enabled
+ged_monitor_3D_fence_systrace  target_t_cpu_remained
 ```
 
 ## What Has Been Changed:
