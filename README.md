@@ -1,4 +1,4 @@
-# Graphics Enhancement Driver
+# Graphics Enhancement Driver & FPSGo
 
 MediaTek graphics enhancement isn't typically a single "driver" file you install manually. Instead, it is a combination of hardware-level features and system-level software optimizations.
 
