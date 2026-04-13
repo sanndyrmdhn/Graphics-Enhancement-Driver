@@ -4,11 +4,13 @@ MediaTek graphics enhancement isn't typically a single "driver" file you install
 
 ## Check Driver Availability
 ```bash
-#Using Terminal Emulator or Termux
+( Device Redmi 10 5G HyperOS A14 )
+
+#Using Terminal Emulator or Termux ( GED )
 su
 ls /sys/module/ged/parameters/
 
-#For result command ( supported ) ( Device Redmi 10 5G HyperOS A14 )
+#For result command ( supported GED ) 
 ap_self_frc_detection_rate     ged_smart_boost
 boost_amp                      gpu_block
 boost_extra                    gpu_bottom_freq
@@ -28,6 +30,14 @@ ged_log_trace_enable           gx_game_mode
 ged_monitor_3D_fence_debug     gx_top_app_pid
 ged_monitor_3D_fence_disable   is_GED_KPI_enabled
 ged_monitor_3D_fence_systrace  target_t_cpu_remained
+
+#Using Terminal Emulator or Termux ( FPSGo )
+su
+ls /sys/kernel/fpsgo
+
+#For result command ( supported FPSGo )
+common  fbt  fstb  minitop  xgf
+
 ```
 
 ## What Has Been Changed:
