@@ -10,3 +10,7 @@ echo 1 > /sys/module/ged/parameters/boost_extra
 echo 1 > /sys/module/ged/parameters/ged_smart_boost
 echo 1 > /sys/module/ged/parameters/ged_boost_enable
 echo 0 > /sys/module/ged/parameters/is_GED_KPI_enabled
+echo 101 > /sys/kernel/ged/hal/gpu_boost_level
+echo 1 > /sys/kernel/fpsgo/fbt/boost_ta
+echo 0 > /sys/kernel/fpsgo/fstb/adopt_low_fps
+echo 2 > /sys/kernel/fpsgo/fbt/llf_task_policy
